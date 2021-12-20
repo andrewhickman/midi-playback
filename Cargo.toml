@@ -8,3 +8,13 @@ documentation = "https://docs.rs/midi-playback"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
 edition = "2018"
+
+[dependencies]
+midir = "0.7.0"
+prost = "0.9.0"
+anyhow = "1.0.51"
+fs-err = "2.6.0"
+
+[dependencies.nwg]
+package = "native-windows-gui"
+version = "1.0.12"

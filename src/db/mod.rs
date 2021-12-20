@@ -1,13 +1,13 @@
-use prost::Message;
 use prost::bytes::Bytes;
+use prost::Message;
 
-#[derive(Message)]
+#[derive(Clone, Message)]
 pub struct Phrase {
     #[prost(message, repeated, tag = "1")]
     pub events: Vec<PhraseEvent>,
 }
 
-#[derive(Message)]
+#[derive(Clone, Message)]
 pub struct PhraseEvent {
     #[prost(uint64, tag = "1")]
     pub timestamp: u64,

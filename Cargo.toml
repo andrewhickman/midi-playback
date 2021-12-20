@@ -1,0 +1,10 @@
+[package]
+name = "midi-playback"
+description = "midi-playback."
+version = "0.0.0"
+authors = ["Andrew Hickman <andrew.hickman1@sky.com>"]
+repository = "https://github.com/andrewhickman/midi-playback"
+documentation = "https://docs.rs/midi-playback"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+edition = "2018"
